@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904205A71E4B2C46004083B8 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 904205A61E4B2C46004083B8 /* NSString+Size.m */; };
 		90F07DE61E4ABFFE00625AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07DE51E4ABFFE00625AA5 /* main.m */; };
 		90F07DE91E4ABFFE00625AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07DE81E4ABFFE00625AA5 /* AppDelegate.m */; };
 		90F07DEC1E4ABFFE00625AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07DEB1E4ABFFE00625AA5 /* ViewController.m */; };
 		90F07DEF1E4ABFFE00625AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F07DED1E4ABFFE00625AA5 /* Main.storyboard */; };
 		90F07DF11E4ABFFE00625AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F07DF01E4ABFFE00625AA5 /* Assets.xcassets */; };
 		90F07DF41E4ABFFE00625AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F07DF21E4ABFFE00625AA5 /* LaunchScreen.storyboard */; };
+		90F07DFF1E4AC19C00625AA5 /* CRVisibleCellsConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07DFE1E4AC19C00625AA5 /* CRVisibleCellsConfigurator.m */; };
+		90F07E031E4AC1C700625AA5 /* CRBannerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E011E4AC1C700625AA5 /* CRBannerTableViewCell.m */; };
+		90F07E041E4AC1C700625AA5 /* CRBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E021E4AC1C700625AA5 /* CRBannerTableViewCell.xib */; };
+		90F07E081E4AC6F200625AA5 /* CRGoodsNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E061E4AC6F200625AA5 /* CRGoodsNameTableViewCell.m */; };
+		90F07E091E4AC6F200625AA5 /* CRGoodsNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E071E4AC6F200625AA5 /* CRGoodsNameTableViewCell.xib */; };
+		90F07E0D1E4AE76800625AA5 /* CRGoodsDescTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E0B1E4AE76800625AA5 /* CRGoodsDescTableViewCell.m */; };
+		90F07E0E1E4AE76800625AA5 /* CRGoodsDescTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E0C1E4AE76800625AA5 /* CRGoodsDescTableViewCell.xib */; };
+		90F07E121E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E101E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.m */; };
+		90F07E131E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E111E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.xib */; };
+		90F07E171E4AED8700625AA5 /* CRHasSelectedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E151E4AED8700625AA5 /* CRHasSelectedTableViewCell.m */; };
+		90F07E181E4AED8700625AA5 /* CRHasSelectedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E161E4AED8700625AA5 /* CRHasSelectedTableViewCell.xib */; };
+		90F07E1C1E4AEDAD00625AA5 /* CRPromotionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E1A1E4AEDAD00625AA5 /* CRPromotionTableViewCell.m */; };
+		90F07E1D1E4AEDAD00625AA5 /* CRPromotionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E1B1E4AEDAD00625AA5 /* CRPromotionTableViewCell.xib */; };
+		90F07E211E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E1F1E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.m */; };
+		90F07E221E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E201E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.xib */; };
+		90F07E261E4AF59B00625AA5 /* CRCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E241E4AF59B00625AA5 /* CRCommentTableViewCell.m */; };
+		90F07E271E4AF59B00625AA5 /* CRCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E251E4AF59B00625AA5 /* CRCommentTableViewCell.xib */; };
+		90F07E2B1E4AF70100625AA5 /* CRStoreInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E291E4AF70100625AA5 /* CRStoreInfoTableViewCell.m */; };
+		90F07E2C1E4AF70100625AA5 /* CRStoreInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E2A1E4AF70100625AA5 /* CRStoreInfoTableViewCell.xib */; };
+		90F07E301E4AF8F300625AA5 /* CRRecommendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07E2E1E4AF8F300625AA5 /* CRRecommendTableViewCell.m */; };
+		90F07E311E4AF8F300625AA5 /* CRRecommendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F07E2F1E4AF8F300625AA5 /* CRRecommendTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		904205A51E4B2C46004083B8 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		904205A61E4B2C46004083B8 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 		90F07DE11E4ABFFE00625AA5 /* CRVisibleCellsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRVisibleCellsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F07DE51E4ABFFE00625AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90F07DE71E4ABFFE00625AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +50,38 @@
 		90F07DF01E4ABFFE00625AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F07DF31E4ABFFE00625AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90F07DF51E4ABFFE00625AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F07DFD1E4AC19C00625AA5 /* CRVisibleCellsConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRVisibleCellsConfigurator.h; sourceTree = "<group>"; };
+		90F07DFE1E4AC19C00625AA5 /* CRVisibleCellsConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRVisibleCellsConfigurator.m; sourceTree = "<group>"; };
+		90F07E001E4AC1C700625AA5 /* CRBannerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBannerTableViewCell.h; sourceTree = "<group>"; };
+		90F07E011E4AC1C700625AA5 /* CRBannerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBannerTableViewCell.m; sourceTree = "<group>"; };
+		90F07E021E4AC1C700625AA5 /* CRBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRBannerTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E051E4AC6F200625AA5 /* CRGoodsNameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGoodsNameTableViewCell.h; sourceTree = "<group>"; };
+		90F07E061E4AC6F200625AA5 /* CRGoodsNameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGoodsNameTableViewCell.m; sourceTree = "<group>"; };
+		90F07E071E4AC6F200625AA5 /* CRGoodsNameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRGoodsNameTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E0A1E4AE76800625AA5 /* CRGoodsDescTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGoodsDescTableViewCell.h; sourceTree = "<group>"; };
+		90F07E0B1E4AE76800625AA5 /* CRGoodsDescTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGoodsDescTableViewCell.m; sourceTree = "<group>"; };
+		90F07E0C1E4AE76800625AA5 /* CRGoodsDescTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRGoodsDescTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E0F1E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGoodsPriceTableViewCell.h; sourceTree = "<group>"; };
+		90F07E101E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGoodsPriceTableViewCell.m; sourceTree = "<group>"; };
+		90F07E111E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRGoodsPriceTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E141E4AED8700625AA5 /* CRHasSelectedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRHasSelectedTableViewCell.h; sourceTree = "<group>"; };
+		90F07E151E4AED8700625AA5 /* CRHasSelectedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRHasSelectedTableViewCell.m; sourceTree = "<group>"; };
+		90F07E161E4AED8700625AA5 /* CRHasSelectedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRHasSelectedTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E191E4AEDAD00625AA5 /* CRPromotionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPromotionTableViewCell.h; sourceTree = "<group>"; };
+		90F07E1A1E4AEDAD00625AA5 /* CRPromotionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRPromotionTableViewCell.m; sourceTree = "<group>"; };
+		90F07E1B1E4AEDAD00625AA5 /* CRPromotionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRPromotionTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E1E1E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCommentHeaderTableViewCell.h; sourceTree = "<group>"; };
+		90F07E1F1E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCommentHeaderTableViewCell.m; sourceTree = "<group>"; };
+		90F07E201E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRCommentHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E231E4AF59B00625AA5 /* CRCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCommentTableViewCell.h; sourceTree = "<group>"; };
+		90F07E241E4AF59B00625AA5 /* CRCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCommentTableViewCell.m; sourceTree = "<group>"; };
+		90F07E251E4AF59B00625AA5 /* CRCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRCommentTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E281E4AF70100625AA5 /* CRStoreInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRStoreInfoTableViewCell.h; sourceTree = "<group>"; };
+		90F07E291E4AF70100625AA5 /* CRStoreInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRStoreInfoTableViewCell.m; sourceTree = "<group>"; };
+		90F07E2A1E4AF70100625AA5 /* CRStoreInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRStoreInfoTableViewCell.xib; sourceTree = "<group>"; };
+		90F07E2D1E4AF8F300625AA5 /* CRRecommendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRecommendTableViewCell.h; sourceTree = "<group>"; };
+		90F07E2E1E4AF8F300625AA5 /* CRRecommendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRecommendTableViewCell.m; sourceTree = "<group>"; };
+		90F07E2F1E4AF8F300625AA5 /* CRRecommendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRRecommendTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +114,8 @@
 		90F07DE31E4ABFFE00625AA5 /* CRVisibleCellsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				90F07DFB1E4AC0EA00625AA5 /* Configurator */,
+				90F07DFC1E4AC0EA00625AA5 /* Cells */,
 				90F07DE71E4ABFFE00625AA5 /* AppDelegate.h */,
 				90F07DE81E4ABFFE00625AA5 /* AppDelegate.m */,
 				90F07DEA1E4ABFFE00625AA5 /* ViewController.h */,
@@ -77,6 +135,54 @@
 				90F07DE51E4ABFFE00625AA5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90F07DFB1E4AC0EA00625AA5 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				90F07DFD1E4AC19C00625AA5 /* CRVisibleCellsConfigurator.h */,
+				90F07DFE1E4AC19C00625AA5 /* CRVisibleCellsConfigurator.m */,
+				904205A51E4B2C46004083B8 /* NSString+Size.h */,
+				904205A61E4B2C46004083B8 /* NSString+Size.m */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		90F07DFC1E4AC0EA00625AA5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				90F07E001E4AC1C700625AA5 /* CRBannerTableViewCell.h */,
+				90F07E011E4AC1C700625AA5 /* CRBannerTableViewCell.m */,
+				90F07E021E4AC1C700625AA5 /* CRBannerTableViewCell.xib */,
+				90F07E051E4AC6F200625AA5 /* CRGoodsNameTableViewCell.h */,
+				90F07E061E4AC6F200625AA5 /* CRGoodsNameTableViewCell.m */,
+				90F07E071E4AC6F200625AA5 /* CRGoodsNameTableViewCell.xib */,
+				90F07E0A1E4AE76800625AA5 /* CRGoodsDescTableViewCell.h */,
+				90F07E0B1E4AE76800625AA5 /* CRGoodsDescTableViewCell.m */,
+				90F07E0C1E4AE76800625AA5 /* CRGoodsDescTableViewCell.xib */,
+				90F07E0F1E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.h */,
+				90F07E101E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.m */,
+				90F07E111E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.xib */,
+				90F07E191E4AEDAD00625AA5 /* CRPromotionTableViewCell.h */,
+				90F07E1A1E4AEDAD00625AA5 /* CRPromotionTableViewCell.m */,
+				90F07E1B1E4AEDAD00625AA5 /* CRPromotionTableViewCell.xib */,
+				90F07E141E4AED8700625AA5 /* CRHasSelectedTableViewCell.h */,
+				90F07E151E4AED8700625AA5 /* CRHasSelectedTableViewCell.m */,
+				90F07E161E4AED8700625AA5 /* CRHasSelectedTableViewCell.xib */,
+				90F07E1E1E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.h */,
+				90F07E1F1E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.m */,
+				90F07E201E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.xib */,
+				90F07E231E4AF59B00625AA5 /* CRCommentTableViewCell.h */,
+				90F07E241E4AF59B00625AA5 /* CRCommentTableViewCell.m */,
+				90F07E251E4AF59B00625AA5 /* CRCommentTableViewCell.xib */,
+				90F07E281E4AF70100625AA5 /* CRStoreInfoTableViewCell.h */,
+				90F07E291E4AF70100625AA5 /* CRStoreInfoTableViewCell.m */,
+				90F07E2A1E4AF70100625AA5 /* CRStoreInfoTableViewCell.xib */,
+				90F07E2D1E4AF8F300625AA5 /* CRRecommendTableViewCell.h */,
+				90F07E2E1E4AF8F300625AA5 /* CRRecommendTableViewCell.m */,
+				90F07E2F1E4AF8F300625AA5 /* CRRecommendTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +243,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F07E221E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.xib in Resources */,
+				90F07E0E1E4AE76800625AA5 /* CRGoodsDescTableViewCell.xib in Resources */,
+				90F07E271E4AF59B00625AA5 /* CRCommentTableViewCell.xib in Resources */,
+				90F07E311E4AF8F300625AA5 /* CRRecommendTableViewCell.xib in Resources */,
+				90F07E041E4AC1C700625AA5 /* CRBannerTableViewCell.xib in Resources */,
+				90F07E131E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.xib in Resources */,
+				90F07E1D1E4AEDAD00625AA5 /* CRPromotionTableViewCell.xib in Resources */,
 				90F07DF41E4ABFFE00625AA5 /* LaunchScreen.storyboard in Resources */,
+				90F07E181E4AED8700625AA5 /* CRHasSelectedTableViewCell.xib in Resources */,
 				90F07DF11E4ABFFE00625AA5 /* Assets.xcassets in Resources */,
+				90F07E091E4AC6F200625AA5 /* CRGoodsNameTableViewCell.xib in Resources */,
+				90F07E2C1E4AF70100625AA5 /* CRStoreInfoTableViewCell.xib in Resources */,
 				90F07DEF1E4ABFFE00625AA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +266,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F07E0D1E4AE76800625AA5 /* CRGoodsDescTableViewCell.m in Sources */,
+				90F07E031E4AC1C700625AA5 /* CRBannerTableViewCell.m in Sources */,
+				90F07E261E4AF59B00625AA5 /* CRCommentTableViewCell.m in Sources */,
+				90F07E1C1E4AEDAD00625AA5 /* CRPromotionTableViewCell.m in Sources */,
+				904205A71E4B2C46004083B8 /* NSString+Size.m in Sources */,
+				90F07DFF1E4AC19C00625AA5 /* CRVisibleCellsConfigurator.m in Sources */,
 				90F07DEC1E4ABFFE00625AA5 /* ViewController.m in Sources */,
 				90F07DE91E4ABFFE00625AA5 /* AppDelegate.m in Sources */,
+				90F07E211E4AF36E00625AA5 /* CRCommentHeaderTableViewCell.m in Sources */,
+				90F07E121E4AEBED00625AA5 /* CRGoodsPriceTableViewCell.m in Sources */,
+				90F07E301E4AF8F300625AA5 /* CRRecommendTableViewCell.m in Sources */,
+				90F07E2B1E4AF70100625AA5 /* CRStoreInfoTableViewCell.m in Sources */,
+				90F07E081E4AC6F200625AA5 /* CRGoodsNameTableViewCell.m in Sources */,
+				90F07E171E4AED8700625AA5 /* CRHasSelectedTableViewCell.m in Sources */,
 				90F07DE61E4ABFFE00625AA5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +435,7 @@
 				90F07DFA1E4ABFFE00625AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
